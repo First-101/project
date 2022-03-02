@@ -45,85 +45,93 @@
     
 
    <!-- Navigation -->
-   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <div class="container">
 
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
 
-            <!-- Image Logo -->
-            <a class="text-light navbar-brand logo-image" href="welcome"><b>โรงเรียนท่าโพธิ์ผักก้ามวิทยา</b></a> 
-            
-            <!-- Mobile Menu Toggle Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-awesome fas fa-bars"></span>
-                <span class="navbar-toggler-awesome fas fa-times"></span>
-            </button>
-            <!-- end of mobile menu toggle button -->
+        <!-- Image Logo -->
+        <a class="text-light navbar-brand logo-image" href="welcome"><b>โรงเรียนท่าโพธิ์ผักก้ามวิทยา</b></a> 
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link breadcrumb-item" href="welcome">หน้าเเรก<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="record">ประวัติโรงเรียน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="personnel">ข้อมูลครู บุคลากร</a>
-                    </li>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="welcome">หน้าเเรก <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="record">ประวัติโรงเรียน</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="personnel">ข้อมูลครู บุคลากร</a>
+                </li>
 
-                    <!-- Dropdown Menu -->          
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ข้อมลูพื้นฐาน</a>
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <div class="dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" 
+                    role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="activity"><span class="item-text">ข่าวประชาสัมพันธ์ กิจกรรม</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="mission"><span class="item-text">พันธกิจ / เป้าประสงค์</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="board"><span class="item-text">คณะกรรมการสถานศึกษาขั้นพื้นฐาน </span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="studentboard"><span class="item-text">คณะกรรมการนักเรียน</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="studentinformation"><span class="item-text">ข้อมูลนักเรียน</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.obec.go.th/"><span class="item-text">สพฐ.</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.ksp.or.th/ksp2018/"><span class="item-text">คุรุสภา</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.moe.go.th/"><span class="item-text">กระทรวงศึกษาธิการ</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="satisfaction"><span class="item-text">แบบสำรวจความพึงพอใจ</span></a>
+                          <a class="dropdown-item my-2" href="activity">ข่าวประชาสัมพันธ์ กิจกรรม</a>    
+                          <a class="dropdown-item my-2" href="mission">พันธกิจ / เป้าประสงค์</a>
+                          <a class="dropdown-item my-2" href="board">คณะกรรมการสถานศึกษาขั้นพื้นฐาน</a>
+                          <a class="dropdown-item my-2" href="studentboard">คณะกรรมการนักเรียน</a>
+                          <a class="dropdown-item my-2" href="studentinformation">ข้อมูลนักเรียน</a>
+                          <a class="dropdown-item my-2" href="https://www.obec.go.th/">สพฐ.</a>
+                          <a class="dropdown-item my-2" href="https://www.ksp.or.th/ksp2018/">คุรุสภา</a>
+                          <a class="dropdown-item my-2" href="https://www.moe.go.th/">กระทรวงศึกษาธิการ</a>
+                          <a class="dropdown-item my-2" href="satisfaction">แบบสำรวจความพึงพอใจ.</a>
                         </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">เว็บไชค์สำคัญ</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="http://www.pracharathschool.go.th/"><span class="item-text">โรงเรียนประชารัฐ</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="http://www.rspg.or.th/"><span class="item-text">อนุรักษ์พันธุกรรมพีชๆ</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.uprightschool.net/"><span class="item-text">โรงเรียนสุจริต</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="http://deetambon.esdc.go.th/dawnhold"><span class="item-text">โรงเรียนดีประจำตำบล</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.vitheebuddha.com/"><span class="item-text">โรงเรียนวิถีพุทธ</span></a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="detail_default" 
+                        role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
+                            <div class="dropdown-menu" aria-labelledby="detail_default">
+                              <a class="dropdown-item my-2" href="http://www.pracharathschool.go.th/">โรงเรียนประชารัฐ</a>    
+                              <a class="dropdown-item my-2" href="http://www.rspg.or.th/">อนุรักษ์พันธุกรรมพีชๆ </a>
+                              <a class="dropdown-item my-2" href="https://www.uprightschool.net/">โรงเรียนสุจริต</a>
+                              <a class="dropdown-item my-2" href="http://deetambon.esdc.go.th/dawnhold">โรงเรียนดีประจำตำบล</a>
+                              <a class="dropdown-item my-2" href="https://www.vitheebuddha.com/">โรงเรียนวิถีพุทธ</a>
+                            </div>
                         </div>
-                    </li>
-                    <!-- end of dropdown menu -->
-
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="message">ร้องเรียน/เสนอเเนะ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="communicate">ติดต่อสอบถาม</a>
-                    </li>
-                </ul>
-                <span class="nav-item">
-                    <a class="btn-outline-sm" href="signln">Sign In</a>
-                </span>
-            </div>
-        </div> <!-- end of container -->
+                </li>
+                <!-- end of dropdown menu -->
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="message">ร้องเรียน/เสนอเเนะ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="communicate">ติดต่อสอบถาม</a>
+                </li>
+            </ul>
+            <span class="nav-item">
+                @if(Auth::check())
+                <div class="dropdown">
+                    <button class="btn-outline-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{Auth::user()->username}}
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="{{route('logout')}}">ออกจากระบบ</a>
+                    </div>
+                </div>
+                {{-- <button class="btn-outline-sm">{{Auth::user()->username}}</button> --}}
+                @else
+                <button class="btn-outline-sm" onclick="modal_login()">ลงชื่อเข้าใช้</button>
+                @endif
+               
+            </span>
+        </div>
+    </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
 
@@ -236,7 +244,31 @@
     <br>
 
     
-    
+   <!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>เว็บไชค์</h4>
+                <p class="p-small">โรงเรียนท่าโพธิ์ผักก้ามวิทยา สำนักงานเขตพื้นที่การศึกษาประถมศึกษาร้อยเอ็ด เขต 1 ตั้งอยู่ที่หมู่ที่ 1 บ้านบ้านผักก้าม ตำบล:ทุ่งเขาหลวง อำเภอ:ทุ่งเขาหลวง จังหวัด:ร้อยเอ็ด รหัสไปรษณีย์:45170</p>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of footer -->  
+<!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Template by Inovatik</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
  
     
     	

@@ -779,13 +779,12 @@ screen and (-ms-high-contrast: none) {
 
 /* Dropdown Menu */
 
-.navbar-custom .dropdown:hover>.dropdown-menu {
+
+/* .navbar-custom .dropdown:hover>.dropdown-menu {
     display: block;
-    /* this makes the dropdown menu stay open while hovering it */
     min-width: auto;
     animation: fadeDropdown 0.2s;
-    /* required for the fade animation */
-}
+} */
 
 @keyframes fadeDropdown {
     0% {
@@ -2133,7 +2132,7 @@ a:hover.back-to-top {
     /* end of customer */
     /* Description */
     .cards-1 .card {
-        background-color: #cccccce8;
+        background-color: #e9e8e8fd;
         width: 18.875rem;
         margin-right: 2rem;
         margin-left: 2rem;

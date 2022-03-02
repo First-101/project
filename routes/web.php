@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/logout',function(){
+    Auth::logout();
+    return redirect()->back();
+})->name('logout');
 Route::get('/', function () {
     return redirect('welcome');
 });
@@ -51,3 +56,7 @@ Route::get('/studentinformation', function () {
 Route::get('/activity', function () {
     return view('activity');
 });
+Route::get('/workmeeting', function () {
+    return view('workmeeting');
+});
+Route::post('/login',[LoginController::class,'login'])->name('login');

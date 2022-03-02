@@ -46,85 +46,93 @@
 
    <!-- Navigation -->
    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <div class="container">
+    <div class="container">
 
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
 
-            <!-- Image Logo -->
-            <a class="text-light navbar-brand logo-image" href="welcome"><b>โรงเรียนท่าโพธิ์ผักก้ามวิทยา</b></a> 
-            
-            <!-- Mobile Menu Toggle Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-awesome fas fa-bars"></span>
-                <span class="navbar-toggler-awesome fas fa-times"></span>
-            </button>
-            <!-- end of mobile menu toggle button -->
+        <!-- Image Logo -->
+        <a class="text-light navbar-brand logo-image" href="welcome"><b>โรงเรียนท่าโพธิ์ผักก้ามวิทยา</b></a> 
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link breadcrumb-item" href="welcome">หน้าเเรก<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="record">ประวัติโรงเรียน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="personnel">ข้อมูลครู บุคลากร</a>
-                    </li>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="welcome">หน้าเเรก <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="record">ประวัติโรงเรียน</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="personnel">ข้อมูลครู บุคลากร</a>
+                </li>
 
-                    <!-- Dropdown Menu -->          
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ข้อมลูพื้นฐาน</a>
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <div class="dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" 
+                    role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="activity"><span class="item-text">ข่าวประชาสัมพันธ์ กิจกรรม</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="mission"><span class="item-text">พันธกิจ / เป้าประสงค์</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="board"><span class="item-text">คณะกรรมการสถานศึกษาขั้นพื้นฐาน </span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="studentboard"><span class="item-text">คณะกรรมการนักเรียน</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="studentinformation"><span class="item-text">ข้อมูลนักเรียน</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.obec.go.th/"><span class="item-text">สพฐ.</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.ksp.or.th/ksp2018/"><span class="item-text">คุรุสภา</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.moe.go.th/"><span class="item-text">กระทรวงศึกษาธิการ</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="satisfaction"><span class="item-text">แบบสำรวจความพึงพอใจ</span></a>
+                          <a class="dropdown-item my-2" href="activity">ข่าวประชาสัมพันธ์ กิจกรรม</a>    
+                          <a class="dropdown-item my-2" href="mission">พันธกิจ / เป้าประสงค์</a>
+                          <a class="dropdown-item my-2" href="board">คณะกรรมการสถานศึกษาขั้นพื้นฐาน</a>
+                          <a class="dropdown-item my-2" href="studentboard">คณะกรรมการนักเรียน</a>
+                          <a class="dropdown-item my-2" href="studentinformation">ข้อมูลนักเรียน</a>
+                          <a class="dropdown-item my-2" href="https://www.obec.go.th/">สพฐ.</a>
+                          <a class="dropdown-item my-2" href="https://www.ksp.or.th/ksp2018/">คุรุสภา</a>
+                          <a class="dropdown-item my-2" href="https://www.moe.go.th/">กระทรวงศึกษาธิการ</a>
+                          <a class="dropdown-item my-2" href="satisfaction">แบบสำรวจความพึงพอใจ.</a>
                         </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">เว็บไชค์สำคัญ</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="http://www.pracharathschool.go.th/"><span class="item-text">โรงเรียนประชารัฐ</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="http://www.rspg.or.th/"><span class="item-text">อนุรักษ์พันธุกรรมพีชๆ</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.uprightschool.net/"><span class="item-text">โรงเรียนสุจริต</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="http://deetambon.esdc.go.th/dawnhold"><span class="item-text">โรงเรียนดีประจำตำบล</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.vitheebuddha.com/"><span class="item-text">โรงเรียนวิถีพุทธ</span></a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="detail_default" 
+                        role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
+                            <div class="dropdown-menu" aria-labelledby="detail_default">
+                              <a class="dropdown-item my-2" href="http://www.pracharathschool.go.th/">โรงเรียนประชารัฐ</a>    
+                              <a class="dropdown-item my-2" href="http://www.rspg.or.th/">อนุรักษ์พันธุกรรมพีชๆ </a>
+                              <a class="dropdown-item my-2" href="https://www.uprightschool.net/">โรงเรียนสุจริต</a>
+                              <a class="dropdown-item my-2" href="http://deetambon.esdc.go.th/dawnhold">โรงเรียนดีประจำตำบล</a>
+                              <a class="dropdown-item my-2" href="https://www.vitheebuddha.com/">โรงเรียนวิถีพุทธ</a>
+                            </div>
                         </div>
-                    </li>
-                    <!-- end of dropdown menu -->
-
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="message">ร้องเรียน/เสนอเเนะ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="communicate">ติดต่อสอบถาม</a>
-                    </li>
-                </ul>
-                <span class="nav-item">
-                    <a class="btn-outline-sm" href="signln">Sign In</a>
-                </span>
-            </div>
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
+                </li>
+                <!-- end of dropdown menu -->
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="message">ร้องเรียน/เสนอเเนะ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="communicate">ติดต่อสอบถาม</a>
+                </li>
+            </ul>
+            <span class="nav-item">
+                @if(Auth::check())
+                <div class="dropdown">
+                    <button class="btn-outline-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{Auth::user()->username}}
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="{{route('logout')}}">ออกจากระบบ</a>
+                    </div>
+                </div>
+                {{-- <button class="btn-outline-sm">{{Auth::user()->username}}</button> --}}
+                @else
+                <button class="btn-outline-sm" onclick="modal_login()">ลงชื่อเข้าใช้</button>
+                @endif
+               
+            </span>
+        </div>
+    </div> <!-- end of container -->
+</nav> <!-- end of navbar -->
     <!-- end of navigation -->
 
 
@@ -356,47 +364,21 @@
         </div>
       </div>
   
-    <!-- Footer -->
-    <svg class="footer-frame" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 79"><defs><style>.cls-2{fill:#5f4def;}</style></defs><title>footer-frame</title><path class="cls-2" d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z" transform="translate(0 -0.188)"/></svg>
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="footer-col first">
-                        <h4>About Tivo</h4>
-                        <p class="p-small">We're passionate about designing and developing one of the best marketing apps in the market</p>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="col-md-4">
-                    <div class="footer-col middle">
-                        <h4>Important Links</h4>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Our business partners <a class="white" href="#your-link">startupguide.com</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Read our <a class="white" href="terms-conditions.html">Terms & Conditions</a>, <a class="white" href="privacy-policy.html">Privacy Policy</a></div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="col-md-4">
-                    <div class="footer-col last">
-                        <h4>ที่อยู่</h4>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li class="media">
-                                <a href="https://www.google.com/maps/place/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B9%82%E0%B8%9E%E0%B8%98%E0%B8%B4%E0%B9%8C%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2/@16.0085642,103.8364744,14.46z/data=!4m5!3m4!1s0x3117e13db162dfdb:0x4c5b813fac089bb!8m2!3d16.0078123!4d103.8525136" i class="fas fa-map-marker-alt" ></a></i>
-                                <div class="media-body">2V53+42C ตำบล ทุ่งเขาหลวง อำเภอ ทุ่งเขาหลวง ร้อยเอ็ด 45170</div>
-                            </li>
-                        </ul>
-                    </div> 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
+    
+
+
+   <!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>เว็บไชค์</h4>
+                <p class="p-small">โรงเรียนท่าโพธิ์ผักก้ามวิทยา สำนักงานเขตพื้นที่การศึกษาประถมศึกษาร้อยเอ็ด เขต 1 ตั้งอยู่ที่หมู่ที่ 1 บ้านบ้านผักก้าม ตำบล:ทุ่งเขาหลวง อำเภอ:ทุ่งเขาหลวง จังหวัด:ร้อยเอ็ด รหัสไปรษณีย์:45170</p>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of footer -->  
+<!-- end of footer -->
 
 
     <!-- Copyright -->
@@ -404,7 +386,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright <a href="#">© 2020 Template by Inovatik</a></p>
+                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Template by Inovatik</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->

@@ -43,7 +43,6 @@
     </div>
     <!-- end of preloader -->
     
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <div class="container">
@@ -75,43 +74,36 @@
 
                     <!-- Dropdown Menu -->          
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ข้อมลูพื้นฐาน</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="activity"><span class="item-text">ข่าวประชาสัมพันธ์ กิจกรรม</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="mission"><span class="item-text">พันธกิจ / เป้าประสงค์</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="board"><span class="item-text">คณะกรรมการสถานศึกษาขั้นพื้นฐาน </span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="studentboard"><span class="item-text">คณะกรรมการนักเรียน</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="studentinformation"><span class="item-text">ข้อมูลนักเรียน</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.obec.go.th/"><span class="item-text">สพฐ.</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.ksp.or.th/ksp2018/"><span class="item-text">คุรุสภา</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.moe.go.th/"><span class="item-text">กระทรวงศึกษาธิการ</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="satisfaction"><span class="item-text">แบบสำรวจความพึงพอใจ</span></a>
+                        <div class="dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" 
+                        role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item my-2" href="activity">ข่าวประชาสัมพันธ์ กิจกรรม</a>    
+                              <a class="dropdown-item my-2" href="mission">พันธกิจ / เป้าประสงค์</a>
+                              <a class="dropdown-item my-2" href="board">คณะกรรมการสถานศึกษาขั้นพื้นฐาน</a>
+                              <a class="dropdown-item my-2" href="studentboard">คณะกรรมการนักเรียน</a>
+                              <a class="dropdown-item my-2" href="studentinformation">ข้อมูลนักเรียน</a>
+                              <a class="dropdown-item my-2" href="https://www.obec.go.th/">สพฐ.</a>
+                              <a class="dropdown-item my-2" href="https://www.ksp.or.th/ksp2018/">คุรุสภา</a>
+                              <a class="dropdown-item my-2" href="https://www.moe.go.th/">กระทรวงศึกษาธิการ</a>
+                              <a class="dropdown-item my-2" href="satisfaction">แบบสำรวจความพึงพอใจ.</a>
+                            </div>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">เว็บไชค์สำคัญ</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="http://www.pracharathschool.go.th/"><span class="item-text">โรงเรียนประชารัฐ</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="http://www.rspg.or.th/"><span class="item-text">อนุรักษ์พันธุกรรมพีชๆ</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.uprightschool.net/"><span class="item-text">โรงเรียนสุจริต</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="http://deetambon.esdc.go.th/dawnhold"><span class="item-text">โรงเรียนดีประจำตำบล</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="https://www.vitheebuddha.com/"><span class="item-text">โรงเรียนวิถีพุทธ</span></a>
-                        </div>
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle page-scroll" href="#" id="detail_default" 
+                            role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
+                                <div class="dropdown-menu" aria-labelledby="detail_default">
+                                  <a class="dropdown-item my-2" href="http://www.pracharathschool.go.th/">โรงเรียนประชารัฐ</a>    
+                                  <a class="dropdown-item my-2" href="http://www.rspg.or.th/">อนุรักษ์พันธุกรรมพีชๆ </a>
+                                  <a class="dropdown-item my-2" href="https://www.uprightschool.net/">โรงเรียนสุจริต</a>
+                                  <a class="dropdown-item my-2" href="http://deetambon.esdc.go.th/dawnhold">โรงเรียนดีประจำตำบล</a>
+                                  <a class="dropdown-item my-2" href="https://www.vitheebuddha.com/">โรงเรียนวิถีพุทธ</a>
+                                </div>
+                            </div>
                     </li>
                     <!-- end of dropdown menu -->
-
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="message">ร้องเรียน/เสนอเเนะ</a>
                     </li>
@@ -120,7 +112,22 @@
                     </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-outline-sm" href="signln">Sign In</a>
+                    @if(Auth::check())
+                    <div class="dropdown">
+                        <button class="btn-outline-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{Auth::user()->username}}
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="{{route('logout')}}">ออกจากระบบ</a>
+                        </div>
+                    </div>
+                    {{-- <button class="btn-outline-sm">{{Auth::user()->username}}</button> --}}
+                    @else
+                    <button class="btn-outline-sm" onclick="modal_login()">ลงชื่อเข้าใช้</button>
+                    @endif
+                   
                 </span>
             </div>
         </div> <!-- end of container -->
@@ -238,38 +245,41 @@
     <!-- end of customers -->
 
 <!-- Testimonials -->
-<div class="slider-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">      
-                <!-- Text Slider -->
-                <div class="slider-container">
-                    <div class="swiper-container text-slider">
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="image-wrapper">
-                                    <img class="img-thumbnail"  src="images/1.jpg" alt="Cinque Terre" width="180" height="180">
-                                </div> <!-- end of image-wrapper -->
-                                <div class="text-wrapper">
-                                    <div class="testimonial-author"><b>นายถวิล สกุนินนท์</b></div>
-                                    <div class="testimonial-text">
-                                        <p><b>ตำหน่ง: ผู้อำนวยการโรงเรียน<br>
-                                        ประเภท: ข้าราชการครู<br>
-                                        วิทยฐานะ: ชำนาญการพิเศษ<br>
-                                        สังกัด: สพป.ร้อยเอ็ด เขต 1<br>
-                                        โรงเรียน: ท่าโพธิ์ผักก้ามวิทยา </b></p></div>
+<p class="text-center ">
+    <div class="slider-2">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-12">      
+                    <!-- Text Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container text-slider">
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                        <div class="image-wrapper">
+                                            <img class="img-thumbnail" src="images/1.jpg" alt="Cinque Terre" width="190" height="190">
+                                        </div> <!-- end of image-wrapper -->
+                                        <div class="text-wrapper">
+                                            <div class="testimonial-author"><b><h5>นายถวิล สกุนินนท์<br>
+                                                ตำหน่ง: ผู้อำนวยการโรงเรียน<br>
+                                                ประเภท: ข้าราชการครู<br>
+                                                วิทยฐานะ: ชำนาญการพิเศษ<br>
+                                                สังกัด: สพป.ร้อยเอ็ด เขต 1<br>
+                                                โรงเรียน: ท่าโพธิ์ผักก้ามวิทยา</h5></b>
+                                            </div>
+                                        </div>
                                 </div> <!-- end of text-wrapper -->
                             </div> <!-- end of swiper-slide -->
                             <!-- end of slide -->
-                        <!-- Add Arrows -->
-                        <!-- end of add arrows -->
-                    </div> <!-- end of swiper-container -->
-                </div> <!-- end of slider-container -->
-                <!-- end of text slider -->
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of slider-2 -->
+                            <!-- Add Arrows -->
+                            <!-- end of add arrows -->
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of text slider -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+</p>
 <!-- end of testimonials -->
     
     
@@ -298,96 +308,96 @@
     </div> <!-- end of ex-basic-2 -->
     <!-- end of privacy content -->
 
-<!-- Features -->
-<div class="ex-basic-1">
-    <div id="features">
-        <div class="container">
-            <div class="row">
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-md-6">
-                </div> <!-- end of col -->
-                <div class="col-lg-12">
-                    <!-- Tabs Links -->
-                    <ul class="nav nav-tabs" id="argoTabs" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class=""></i><h4>รับสมัครนักเรียน</h4></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class=""></i><h4>การป้องกันไวรัสโควิส 19</h4></a>
-                        </li>
-                        
-                    </ul>
-                    <!-- end of tabs links -->
+    <!-- Features -->
+    <div class="ex-basic-1">
+        <div id="features">
+            <div class="container">
+                <div class="row">
+                </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col-md-6">
+                    </div> <!-- end of col -->
+                    <div class="col-lg-12">
+                        <!-- Tabs Links -->
+                        <ul class="nav nav-tabs" id="argoTabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class=""></i><h4>รับสมัครนักเรียน</h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class=""></i><h4>การป้องกันไวรัสโควิส 19</h4></a>
+                            </li>
+                            
+                        </ul>
+                        <!-- end of tabs links -->
 
-                    <!-- Tabs Content -->
-                    <div class="tab-content" id="argoTabsContent">
+                        <!-- Tabs Content -->
+                        <div class="tab-content" id="argoTabsContent">
 
-                        <!-- Tab -->
-                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="image-container">
-                                        <img class="img-fluid" src="images/รูปรัยสมัคร.png" alt="alternative">
-                                    </div> <!-- end of image-container -->
-                                </div> <!-- end of col -->
-                                <div class="col-lg-6">
-                                    <div class="text-container">
-                                        <h3>รับสมัครนักเรียนระดับชั้นอนุบาล 1 ถึง มัธยมศึกษาปีที่ 3 ประจำปีการศึกษา 2565</h3>
-                                        <p><a class="blue page-scroll" href="sign-up.html"></a> </p>
-                                        <ul class="list-unstyled li-space-lg">
-                                        </ul>
-                                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">รายละเอียด</a>
-                                    </div> <!-- end of text-container -->
-                                </div> <!-- end of col -->
-                            </div> <!-- end of row -->
-                        </div> <!-- end of tab-pane -->
-                        <!-- end of tab -->
+                            <!-- Tab -->
+                            <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="image-container">
+                                            <img class="img-fluid" src="images/รูปรัยสมัคร.png" alt="alternative">
+                                        </div> <!-- end of image-container -->
+                                    </div> <!-- end of col -->
+                                    <div class="col-lg-6">
+                                        <div class="text-container">
+                                            <h3>รับสมัครนักเรียนระดับชั้นอนุบาล 1 ถึง มัธยมศึกษาปีที่ 3 ประจำปีการศึกษา 2565</h3>
+                                            <p><a class="blue page-scroll" href="sign-up.html"></a> </p>
+                                            <ul class="list-unstyled li-space-lg">
+                                            </ul>
+                                            <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">รายละเอียด</a>
+                                        </div> <!-- end of text-container -->
+                                    </div> <!-- end of col -->
+                                </div> <!-- end of row -->
+                            </div> <!-- end of tab-pane -->
+                            <!-- end of tab -->
 
-                        <!-- Tab -->
-                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="image-container">
-                                        <img class="img-fluid" src="images/ไวรัสโควิส.png" alt="alternative">
-                                    </div> <!-- end of image-container -->
-                                </div> <!-- end of col -->
-                                <div class="col-lg-6">
-                                    <div class="text-container">
-                                        <h3>การป้องกันไวรัสโคโรน่าในขณะที่มาโรงเรียน</h3>
-                                        <p></p>
-                                        <ul class="list-unstyled li-space-lg">
-                                            
-                                        </ul>
-                                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-3">รายละเอียด</a>
-                                    </div> <!-- end of text-container -->
-                                </div> <!-- end of col -->
-                                
-                            </div> <!-- end of row -->
-                        </div> <!-- end of tab-pane -->
-                        <!-- end of tab -->
+                            <!-- Tab -->
+                            <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="image-container">
+                                            <img class="img-fluid" src="images/ไวรัสโควิส.png" alt="alternative">
+                                        </div> <!-- end of image-container -->
+                                    </div> <!-- end of col -->
+                                    <div class="col-lg-6">
+                                        <div class="text-container">
+                                            <h3>การป้องกันไวรัสโคโรน่าในขณะที่มาโรงเรียน</h3>
+                                            <p></p>
+                                            <ul class="list-unstyled li-space-lg">
+                                                
+                                            </ul>
+                                            <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-3">รายละเอียด</a>
+                                        </div> <!-- end of text-container -->
+                                    </div> <!-- end of col -->
+                                    
+                                </div> <!-- end of row -->
+                            </div> <!-- end of tab-pane -->
+                            <!-- end of tab -->
 
-                        <!-- Tab -->
-                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="image-container">
-                                        <img class="img-fluid" src="images/features-3.png" alt="alternative">
-                                    </div> <!-- end of image-container -->
-                                </div> <!-- end of col -->
-                                
-                            </div> <!-- end of row -->
-                        </div> <!-- end of tab-pane -->
-                        <!-- end of tab -->
-                        
-                    </div> <!-- end of tab content -->
-                    <!-- end of tabs content -->
+                            <!-- Tab -->
+                            <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="image-container">
+                                            <img class="img-fluid" src="images/features-3.png" alt="alternative">
+                                        </div> <!-- end of image-container -->
+                                    </div> <!-- end of col -->
+                                    
+                                </div> <!-- end of row -->
+                            </div> <!-- end of tab-pane -->
+                            <!-- end of tab -->
+                            
+                        </div> <!-- end of tab content -->
+                        <!-- end of tabs content -->
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of tabs -->
-</div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of tabs -->
+    </div>
     <!-- end of features -->
 
 
@@ -461,21 +471,105 @@
     <!-- end of details lightbox 3 -->
     <!-- end of details lightboxes -->
 
-<br>
-<br>
-<br>
+
+
+
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>เว็บไชค์</h4>
+                <p class="p-small">โรงเรียนท่าโพธิ์ผักก้ามวิทยา สำนักงานเขตพื้นที่การศึกษาประถมศึกษาร้อยเอ็ด เขต 1 ตั้งอยู่ที่หมู่ที่ 1 บ้านบ้านผักก้าม ตำบล:ทุ่งเขาหลวง อำเภอ:ทุ่งเขาหลวง จังหวัด:ร้อยเอ็ด รหัสไปรษณีย์:45170</p>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of footer -->  
+<!-- end of footer -->
+
+
     <!-- Copyright -->
     <div class="copyright">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright <a href="#">© 2020 Template by Inovatik</a></p>
+                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Template by Inovatik</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
     
+
+    
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/ทรงพระเจริญ.jpg" alt="Cinque Terre" width="420" height="540" width="100%">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="MODAL_NAME_LOGIN">เข้าสู่ระบบ / Login</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closemodallogin()"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form method="POST" id="FRM_LOGIN" action="{{route('login')}}">
+                               @csrf                            
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label ER_USERNAME">ชื่อผู้ใช้</label>
+                                            <input type="text" class="form-control ER_USERNAME" id="username" name="username" placeholder="ชื่อผู้ใช้" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label ER_password">รหัสผ่าน</label>
+                                            <input type="password" class="form-control ER_password" id="password" name="password" placeholder="รหัสผ่าน" required>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="remember" name="remember">
+                                            <label class="form-check-label" for="remember">จดจำฉัน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="mb-3 ">
+                                            <label class="label-click float-end" data-id="BTN_FORGET" onclick="hideandshow(this)">ลืมรหัสผ่าน</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3 ">
+                                            <button type="submit" class="btn btn-success w-100 ">ลงชื่อเข้าใช้</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <div class="mb-3 ">
+                                            <label>มีบัญชีเข้าใช้ระบบหรือยัง ? กด<span class="span-register" data-id="BTN_REGISTER" onclick="hideandshow(this)">สมัครบัญชี</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     	
     <!-- Scripts -->
     <script src="js/jquery-3.6.0.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
@@ -486,5 +580,10 @@
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script>
+        function modal_login(){
+            $("#modal_login").modal("show");
+        }
+    </script>
 </body>
 </html>
