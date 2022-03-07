@@ -59,4 +59,8 @@ Route::get('/activity', function () {
 Route::get('/workmeeting', function () {
     return view('workmeeting');
 });
+Route::get('/editinformation', function () {
+    return view('editinformation.editinformation');
+});
 Route::post('/login',[LoginController::class,'login'])->name('login');
+Route::post('/register',[LoginController::class,'register'])->name('register');

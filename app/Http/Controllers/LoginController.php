@@ -22,4 +22,25 @@ class LoginController extends Controller
         Auth::attempt($login_set);
         return redirect()->back();
     }
+    public function register(Request $request){
+        $username = $request->username;
+        $password = $request->password;
+
+        $name = $request->name;
+        $email = $request->email;
+        $check_username = User::where('username','=',$username)->count();
+        if($check_username > 0){
+            return redirect()->back();
+        }
+        User::insert([
+            'name'=>$name,
+            'username'=>$username,
+            'email'=>$email,
+            'password'=>Hash::make($password),
+        ]);
+        $login_set=['username'=>$username,'password'=>$password];
+        Auth::attempt($login_set);
+
+        return redirect()->back();
+    }
 }

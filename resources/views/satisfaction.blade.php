@@ -1,181 +1,378 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Tivo is a HTML landing page template built with Bootstrap to help you crate engaging presentations for SaaS apps and convert visitors into users.">
-    <meta name="author" content="Inovatik">
-
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta property="og:type" content="article" />
-
-    <!-- Website Title -->
-    <title>โรงเรียนท่าโพธิ์ผักก้ามวิทยา</title>
-    
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="images/1045450785.jpg">
-</head>
-<body data-spy="scroll" data-target=".fixed-top">
-    
-    <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
-    <!-- end of preloader -->
-    
-
-   <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <div class="container">
-
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
-
-        <!-- Image Logo -->
-        <a class="text-light navbar-brand logo-image" href="welcome"><b>โรงเรียนท่าโพธิ์ผักก้ามวิทยา</b></a> 
-        
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="welcome">หน้าเเรก <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="record">ประวัติโรงเรียน</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="personnel">ข้อมูลครู บุคลากร</a>
-                </li>
-
-                <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
-                    <div class="dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" 
-                    role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item my-2" href="activity">ข่าวประชาสัมพันธ์ กิจกรรม</a>    
-                          <a class="dropdown-item my-2" href="mission">พันธกิจ / เป้าประสงค์</a>
-                          <a class="dropdown-item my-2" href="board">คณะกรรมการสถานศึกษาขั้นพื้นฐาน</a>
-                          <a class="dropdown-item my-2" href="studentboard">คณะกรรมการนักเรียน</a>
-                          <a class="dropdown-item my-2" href="studentinformation">ข้อมูลนักเรียน</a>
-                          <a class="dropdown-item my-2" href="https://www.obec.go.th/">สพฐ.</a>
-                          <a class="dropdown-item my-2" href="https://www.ksp.or.th/ksp2018/">คุรุสภา</a>
-                          <a class="dropdown-item my-2" href="https://www.moe.go.th/">กระทรวงศึกษาธิการ</a>
-                          <a class="dropdown-item my-2" href="satisfaction">แบบสำรวจความพึงพอใจ.</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <div class="dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#" id="detail_default" 
-                        role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
-                            <div class="dropdown-menu" aria-labelledby="detail_default">
-                              <a class="dropdown-item my-2" href="http://www.pracharathschool.go.th/">โรงเรียนประชารัฐ</a>    
-                              <a class="dropdown-item my-2" href="http://www.rspg.or.th/">อนุรักษ์พันธุกรรมพีชๆ </a>
-                              <a class="dropdown-item my-2" href="https://www.uprightschool.net/">โรงเรียนสุจริต</a>
-                              <a class="dropdown-item my-2" href="http://deetambon.esdc.go.th/dawnhold">โรงเรียนดีประจำตำบล</a>
-                              <a class="dropdown-item my-2" href="https://www.vitheebuddha.com/">โรงเรียนวิถีพุทธ</a>
-                            </div>
-                        </div>
-                </li>
-                <!-- end of dropdown menu -->
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="message">ร้องเรียน/เสนอเเนะ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="communicate">ติดต่อสอบถาม</a>
-                </li>
-            </ul>
-            <span class="nav-item">
-                @if(Auth::check())
-                <div class="dropdown">
-                    <button class="btn-outline-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {{Auth::user()->username}}
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="{{route('logout')}}">ออกจากระบบ</a>
-                    </div>
-                </div>
-                {{-- <button class="btn-outline-sm">{{Auth::user()->username}}</button> --}}
-                @else
-                <button class="btn-outline-sm" onclick="modal_login()">ลงชื่อเข้าใช้</button>
-                @endif
-               
-            </span>
-        </div>
-    </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
-
-
+@extends('master.main')
+@section('body')
     <!-- Header -->
     <header id="header" class="ex-header">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>แบบสำรวจความพึงพอใจ</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+           
         </div> <!-- end of container -->
     </header> <!-- end of ex-header -->
     <!-- end of header -->
 
-    <div class="ex-basic-2">
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="text-container">
-                        <h3>แบบสำรวจความพึงพอใจการใช้งาน</h3>
-                        <p> 
-                            </p>
-                        <p><a class="blue" href="#your-link"></a> </p>
-                        </div> <!-- end of row -->
-                    </div> <!-- end of text-container-->
-                </div> <!-- end of col-->
+                    <div class="breadcrumbs">
+                    <b><span>กลับไปหน้าเเรก</span><i class="fa fa-angle-double-right"></i> <a href="welcome">หน้าเเรก</a></b>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of ex-basic-2 -->
-    <!-- end of privacy content -->
-    
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+    <!-- Privacy Content -->
+   <!-- Description -->
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <form>
+                <h3>ข้อมูลสิ่งก่อสร้าง โรงเรียนท่าโพธิ์ผักก้ามวิทยา</h3>
+            </form>   
+        </div>  
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-12">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">อันดับ</th>
+                    <th scope="col">รูปภาพ</th>
+                    <th scope="col">ชื่อสถานที่</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/11.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td> <h4 class="card-title"></h4>
+                        <p><h6>อาคารเรียน<br>
+                            ป.1ฉ</br>
+                            สร้างเมื่อปีที่ 2513<br></h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/12.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>   
+                    <td> <h4 class="card-title"></h4>
+                        <p><h6>อาคารเรียน<br>
+                            สปช.105/26<br>
+                            สร้างเมื่อปีที่ 2539</h6></p></td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/13.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td> 
+                    <td><h4 class="card-title"></h4> 
+                        <p><h6>ส้วม<br>
+                            อื่น อื่น<br>
+                            สร้างเมื่อปีที่ 2525</h6> </p></td>
+                            
+
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/14.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td> 
+                        <h4 class="card-title"></h4>
+                        <p><h6>ส้วม<br>
+                            สปช.601/26<br>
+                            สร้างเมื่อปีที่ 2542</h6> </p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/15.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>   
+                    </td>
+                    <td><h4 class="card-title"></h4>
+                        <p><h6>สนามเด็กเล่น<br>
+                            สนามเด็กเล่นสร้างเมื่อปีที่ 2532</h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/16.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td><h4 class="card-title"></h4>
+                        <p><h6>บ่อเลี้ยงปลา<br>
+                            บ่อเลี้ยงปลาสร้างขึ้นเมื่อปีที่ 2539</h6> </p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/17.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td><h4 class="card-title"></h4>
+                        <p><h6>สนามกีฬา<br>
+                            ลานกีฬาอเนกประสงค์<br>
+                            สร้างเมื่อปีที่ 2543</h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/18.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td> <h4 class="card-title"></h4>
+                        <p><h6>ถนน/รางระบายน้ำ<br>
+                            ถนนคอนกรีต<br>
+                            สร้างเมื่อปีที่ 2555</h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/19.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td> <h4 class="card-title"></h4>
+                        <p><h6>อาคารเรียน<br>
+                            สปช.105/29<br>
+                            สร้างเมื่อปีที่ 2531 </h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/20.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td><h4 class="card-title"></h4>
+                        <p><h6>อาคารอเนกประสงค์/โรงอาหาร/โรงฝึกงาน/หอประชุม<br>
+                            312<br>
+                            สร้างเมื่อปีที่ 2522</h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/21.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td><h4 class="card-title"></h4>
+                        <p><h6>ส้วม<br>  
+                            สปช.601/26<br>
+                            สร้างเมื่อปีที่ 2533</h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/22.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td><h4 class="card-title"></h4>
+                        <p><h6>หอสมุด<br>
+                            หอสมุดสร้างเมื่อปีที่ 2539</h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/23.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td><h4 class="card-title"></h4>
+                        <p><h6>บ่อเลี้ยงปลา<br>
+                            บ่อเลี้ยงปลาสร้างเมื่อปีที่ 2529</h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/24.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td><h4 class="card-title"></h4>
+                        <p><h6>สนามกีฬา<br>
+                            สนามบาสเก็ตบอล<br>
+                            สร้างเมื่อปีที่ 2536</h6></p></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td class="w-25">
+                        <div class="container">
+                            <img class="img-thumbnail"  src="images/25.jpg"  alt="Cinque Terre" width="500" height="500">
+                        </div>
+                    </td>
+                    <td><h4 class="card-title"></h4>
+                        <p><h6>รั้ว<br>
+                            รั้วคอนกรีต<br>
+                            สร้างเมื่อปีที่ 2542</h6></p></td>
+                  </tr>
+                </tbody>
+              </table>   
+          </div>
+        </div>
+    </div>
  
+
+     <!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>เว็บไชค์</h4>
+                <p class="p-small">โรงเรียนท่าโพธิ์ผักก้ามวิทยา สำนักงานเขตพื้นที่การศึกษาประถมศึกษาร้อยเอ็ด เขต 1 ตั้งอยู่ที่หมู่ที่ 1 บ้านบ้านผักก้าม ตำบล:ทุ่งเขาหลวง อำเภอ:ทุ่งเขาหลวง จังหวัด:ร้อยเอ็ด รหัสไปรษณีย์:45170</p>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of footer -->  
+<!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Template by Inovatik</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
     
-    	
-    <!-- Scripts -->
-    <script src="js/jquery-3.6.0.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-</body>
-</html>
+    <style>
+        .span-register{
+            color: rgb(0, 4, 255);
+            cursor: pointer;
+        }
+    </style>
+    <div class="modal fade bd-example-modal-xl" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/ทรงพระเจริญ.jpg" alt="Cinque Terre"  width="100%">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="MODAL_NAME_LOGIN">เข้าสู่ระบบ / Login</h5>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close" onclick="close_modal()"><i class="fas fa-times"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <form method="POST" id="FRM_LOGIN" action="{{route('login')}}">
+                               @csrf                            
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label ER_USERNAME">ชื่อผู้ใช้</label>
+                                            <input type="text" class="form-control ER_USERNAME" id="username" name="username" placeholder="ชื่อผู้ใช้" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label ER_password">รหัสผ่าน</label>
+                                            <input type="password" class="form-control ER_password" id="password" name="password" placeholder="รหัสผ่าน" required>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="remember" name="remember">
+                                            <label class="form-check-label" for="remember">จดจำฉัน</label>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3 ">
+                                            <button type="submit" class="btn btn-success w-100 ">ลงชื่อเข้าใช้</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <div class="mb-3 ">
+                                            <label>มีบัญชีเข้าใช้ระบบหรือยัง ? กด<span class="span-register" onclick="register()" >สมัครบัญชี</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            
+                            <form method="POST" id="FRM_REGISTER" action="{{route('register')}}" hidden>
+                                @csrf                            
+                                 <div class="row">
+                                     <div class="col-md-12">
+                                         <div class="mb-3">
+                                             <label class="form-label ER_USERNAME">ชื่อ</label>
+                                             <input type="text" class="form-control ER_USERNAME" id="name" name="name" placeholder="ชื่อ" required>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label ER_USERNAME">ชื่อผู้ใช้</label>
+                                            <input type="text" class="form-control ER_USERNAME" id="username" name="username" placeholder="ชื่อผู้ใช้" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label ER_USERNAME">อีเมล์</label>
+                                            <input type="text" class="form-control ER_USERNAME" id="email" name="email" placeholder="อีเมล" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="row">
+                                     <div class="col-md-12">
+                                         <div class="mb-3">
+                                             <label class="form-label ER_password">รหัสผ่าน</label>
+                                             <input type="password" class="form-control ER_password" id="password" name="password" placeholder="รหัสผ่าน" required>  
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="row">
+                                     
+                                     
+                                 </div>
+                                 <div class="row">
+                                     <div class="col-md-12">
+                                         <div class="mb-3 ">
+                                            <button type="submit" class="btn btn-success w-20 ">ลงชื่อเข้าใช้</button>
+                                            <button type="submit" class="btn btn-secondary w-20" onclick="login()">ย้อนกลับ</button>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="row">
+                                 </div>
+                             </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+@endsection

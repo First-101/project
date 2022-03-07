@@ -78,23 +78,23 @@
                     <div class="dropdown">
                     <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" 
                     role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item my-2" href="activity">ข่าวประชาสัมพันธ์ กิจกรรม</a>    
-                          <a class="dropdown-item my-2" href="mission">พันธกิจ / เป้าประสงค์</a>
-                          <a class="dropdown-item my-2" href="board">คณะกรรมการสถานศึกษาขั้นพื้นฐาน</a>
-                          <a class="dropdown-item my-2" href="studentboard">คณะกรรมการนักเรียน</a>
-                          <a class="dropdown-item my-2" href="studentinformation">ข้อมูลนักเรียน</a>
-                          <a class="dropdown-item my-2" href="https://www.obec.go.th/">สพฐ.</a>
-                          <a class="dropdown-item my-2" href="https://www.ksp.or.th/ksp2018/">คุรุสภา</a>
-                          <a class="dropdown-item my-2" href="https://www.moe.go.th/">กระทรวงศึกษาธิการ</a>
-                          <a class="dropdown-item my-2" href="satisfaction">แบบสำรวจความพึงพอใจ.</a>
-                        </div>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item my-2" href="activity">ข่าวประชาสัมพันธ์ กิจกรรม</a>    
+                        <a class="dropdown-item my-2" href="mission">พันธกิจ / เป้าประสงค์</a>
+                        <a class="dropdown-item my-2" href="board">คณะกรรมการสถานศึกษาขั้นพื้นฐาน</a>
+                        <a class="dropdown-item my-2" href="studentboard">คณะกรรมการนักเรียน</a>
+                        <a class="dropdown-item my-2" href="studentinformation">ข้อมูลนักเรียน</a>
+                        <a class="dropdown-item my-2" href="satisfaction">ข้อมูลสิ่งก่อสร้าง</a>
+                        <a class="dropdown-item my-2" href="https://www.obec.go.th/">สพฐ.</a>
+                        <a class="dropdown-item my-2" href="https://www.ksp.or.th/ksp2018/">คุรุสภา</a>
+                        <a class="dropdown-item my-2" href="https://www.moe.go.th/">กระทรวงศึกษาธิการ</a>                              
+                      </div>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <div class="dropdown">
                         <a class="nav-link dropdown-toggle page-scroll" href="#" id="detail_default" 
-                        role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">ข้อมลูพื้นฐาน</a>
+                        role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">เว็บไซต์สำคัญ</a>
                             <div class="dropdown-menu" aria-labelledby="detail_default">
                               <a class="dropdown-item my-2" href="http://www.pracharathschool.go.th/">โรงเรียนประชารัฐ</a>    
                               <a class="dropdown-item my-2" href="http://www.rspg.or.th/">อนุรักษ์พันธุกรรมพีชๆ </a>
@@ -105,9 +105,7 @@
                         </div>
                 </li>
                 <!-- end of dropdown menu -->
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="message">ร้องเรียน/เสนอเเนะ</a>
-                </li>
+            
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="communicate">ติดต่อสอบถาม</a>
                 </li>
