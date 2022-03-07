@@ -48,19 +48,13 @@
 </header>
 
 
-
-
-
 <div class="ex-basic-1">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                
-                <!-- Image Slider -->
                 <div class="slider-container">
                     <div class="swiper-container image-slider">
                         <div class="swiper-wrapper">
-                            
                             <div class="swiper-slide">
                                 <a href="https://www.moe.go.th/">
                                     <img class="img-fluid" src="images/banner_moe.gif" alt="alternative">
@@ -68,7 +62,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <a href="https://www.obec.go.th/">
-                                    <img class="img-fluid" src="images/obec.gif" alt="alternative">
+                                    <img src="images/B_asean_MOE.gif" alt="alternative"> 
                                 </a> 
                             </div>
                             <div class="swiper-slide">
@@ -129,6 +123,7 @@
         </div> <!-- end of row -->
     </div> <!-- end of container -->
 </div>
+
 
 <section id="relativ" class="about section-bg">
 <div class="slider-2">

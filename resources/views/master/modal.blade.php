@@ -15,7 +15,7 @@
                 <div class="col-md-6">
                     <div class="modal-header">
                         <h5 class="modal-title" id="MODAL_NAME_LOGIN">เข้าสู่ระบบ / Login</h5>
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close" onclick="close_modal()"><i class="fas fa-times"></i></button>
+                        <button type="button" class="btn " data-bs-dismiss="modal" aria-label="Close" onclick="close_modal()"><i class="fas fa-times"></i></button>
                     </div>
                     <div class="modal-body">
                         <form method="POST" id="FRM_LOGIN" action="{{route('login')}}">

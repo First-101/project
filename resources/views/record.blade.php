@@ -133,7 +133,7 @@
 
 
    
-    
+   
     <style>
         .span-register{
             color: rgb(0, 4, 255);
